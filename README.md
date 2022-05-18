@@ -1,3 +1,5 @@
 # Random NFT Generator
 
-This code can create thousands of NFT images from layers.
+This webpage can create NFT images from layers. This code is for free use.
+
+Created by: © Tomas Serra
