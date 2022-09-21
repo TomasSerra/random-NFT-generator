@@ -8,9 +8,9 @@
 
 <p> Pensando en este tipo de tecnología, encontramos una gran problematica a resolver: ¿Como hago una gran colección de NFT sin tener que hacer imagen por imagen a mano y sin saber programar? En esto se va a basar nuestro proyecto, la creacion de una herramienta amigable y facil de usar, que permita a usuarios poder crear gran cantidad de imagenes NFTs sin la necesidad de saber programar.</p>
 
-<h4>¿Como lo vamos a lograr?</h4>
+<h4>¿Como funciona?</h4>
 
-<p> Nuestro proyecto va a consistir de 2 grandes partes: El interfaz de usuario y el algoritmo detras de esta. Ambos van a estar dentro de una página web donde el ususario va a poder ingresar y crear sus NFTs. El algoritmo consiste en mezclar imagenes en diferentes capas para asi poder formar infinitas combinaciones de imagenes aleatortias sin tener que crear una por una a mano. En el interfaz van a haber diferentes opciones de personalización para la creación de las imagenes:</p>
+<p> Nuestro proyecto consiste de 2 grandes partes: El interfaz de usuario y el algoritmo detras de esta. Ambos van a estar dentro de una página web donde el ususario va a poder ingresar y crear sus NFTs. El algoritmo consiste en mezclar imagenes en diferentes capas para asi poder formar infinitas combinaciones de imagenes aleatortias sin tener que crear una por una a mano. En el interfaz van a haber diferentes opciones de personalización para la creación de las imagenes:</p>
 
 <p><b>Layers:</b>  El usuario va a poder elegir la cantidad de capas para la creación de sus imagenes. Por ejemplo si nuestros NFTs van a ser de gatos, la capa 1 podria ser el cuerpo, la capa 2 los ojos, la 3 los accesorios, etc.</p>
 <p><b>Backgrounds:</b> Se podran agregar la cantidad de fondos que desee, variando la imagen de este y su porbabilidad de aparición.</p>
