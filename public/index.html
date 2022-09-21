@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="NFT Randomizer">
+    <title>NFT Randomizer | Create</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon"  type="image/png" href="./img/aleatorio.png">
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+      <div class="container-fluid">
+        <img src="img/Logo blanco-03.png" style="width:110px;margin-left:10px"/> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="margin-right:20px;margin-left:auto">
+            <a class="nav-link active" aria-current="page" href="#">Create</a>
+            <a class="nav-link" href="nfts.html">My NFTs</a>
+            <a class="nav-link" href="how.html">How it Works?</a>
+            <div class="usuario" id="usuarioBox">
+              <p id="userName"></p>
+              <div class="login-buttons">
+                <div id="loginButton">
+                  <button id="login">Login</button>
+                </div>
+                <div id="dashboard">
+                  <button id="logout">Logout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+  
+    
+
+      <table style="margin-top: 30px;">
+        <td class="columna-izq">             <!--COLUMNA IZQUIERDA-->
+          <div class="alinear">
+            <h2>Layers</h2>
+            <div class="handle-counter" id="handleCounter">
+              <button class="counter-minus btn" onclick="restarLayer()">-</button>
+              <input id="inputLayer" type="text" value="0" disabled>
+              <button class="counter-plus btn" onclick="sumarLayer()">+</button>
+            </div>
+          </div>
+         
+          <hr>
+          <div id="contenedorLayers"></div>
+
+          </div>
+        </td>
+
+        <td class="columna-med">            <!--COLUMNA CENTRO-->
+          <input class="collection-name" type="text" id="coleccionNombre" value="Collection name">
+          <canvas width="350px" height="350px" id="canvas"></canvas>
+          <div class="totalNfts"> <input id="totalNFT" class="impnft" type="number" value="1" min="1" max="10000"> </div>
+          <button class="boton-actualizar" onclick="aleatorizar()">Randomize<img src="img/aleatorio.png" style="width: 8%; margin-left: 20px; margin-bottom: 5px;"></button>
+          <button class="boton-descargar" id="upload" onclick="upload()" disabled>Upload<img src="img/upload.png" style="width: 6%; margin-left: 20px; margin-bottom: 5px;"></button>
+          <h5 id="uploaded">Uploaded successfully</h5>
+          <h5 id="nouploaded">Fail to upload</h5>
+        </td>
+
+        <td class="columna-der">             <!--COLUMNA DERECHA-->
+          <!--<h2>Background</h2>
+          <hr>
+          <div class="rarity-square">
+            <h4 style="float: left; padding-top: 20px; padding-left: 10px; font-size: 1.5vw;">Rarities</h4>
+            <div class="handle-counter" id="handleCounter">
+              <button class="counter-minus btn" onclick="restarRarity()">-</button>
+              <input id="inputRarity" type="text" value="0" disabled>
+              <button class="counter-plus btn" onclick="sumarRarity()">+</button>
+            </div>
+          </div>
+
+          <div id="contenedorRarities"></div>-->
+
+        </td>
+      </table>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+      <script type="text/javascript" src="./main.js"></script>
+      <script type="text/javascript" src="./auth.js"></script>
+
+  </body>
+
+  
+
+</html>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="NFT Randomizer">
+    <title>NFT Randomizer | My NFTs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon"  type="image/png" href="./img/aleatorio.png">
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark header">
+      <div class="container-fluid">
+        <img src="img/Logo blanco-03.png" style="width:110px;margin-left:10px"/> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="margin-right:20px;margin-left:auto">
+            <a class="nav-link"href="index.html">Create</a>
+            <a class="nav-link active" aria-current="page" href="#">My NFTs</a>
+            <a class="nav-link" href="how.html">How it Works?</a>
+            <div class="usuario" id="usuarioBox">
+              <p id="userName"></p>
+              <div class="login-buttons">
+                <div id="loginButton">
+                  <button id="login">Login</button>
+                </div>
+                <div id="dashboard">
+                  <button id="logout">Logout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--<button onclick="downloadall()">Download</button>-->
+    <div class="contenedor-nft" id="contenedorImg">
+    </div>
+
+  
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-storage.js"></script>
+      <script type="text/javascript" src="./read.js"></script>
+      <script type="text/javascript" src="./auth.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.js" integrity="sha512-NOmoi96WK3LK/lQDDRJmrobxa+NMwVzHHAaLfxdy0DRHIBc6GZ44CRlYDmAKzg9j7tvq3z+FGRlJ4g+3QC2qXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  </body>
+
+  
+
+</html>
+

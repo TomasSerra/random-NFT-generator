@@ -1,0 +1,26 @@
+{
+  "name": "nft_generator",
+  "version": "1.0.0",
+  "description": "Create generative art by using the canvas api and node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomas Serra",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "firebase": "^9.1.0",
+    "firebaseui": "^5.0.0",
+    "jszip": "^3.7.1",
+    "requirejs": "^2.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/etrr/1521-tel/7tel/proyectos_anuales/proyecto-final-serra_piris_paiz"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/etrr/1521-tel/7tel/proyectos_anuales/proyecto-final-serra_piris_paiz/issues"
+  },
+  "homepage": "https://gitlab.com/etrr/1521-tel/7tel/proyectos_anuales/proyecto-final-serra_piris_paiz#readme"
+}

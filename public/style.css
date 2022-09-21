@@ -1,0 +1,620 @@
+
+html{
+  background-color: #111111 !important;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  height: 100%;
+  background-color: #111111 !important;
+}
+
+.header{
+  background-color: #5b3bd1;
+  height: fit-content;
+  position: relative;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.navbar {
+  width: fit-content;
+  margin-right: 0px;
+  margin-left: auto;
+  display: inline-block;
+  
+}
+
+.logo  {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 20px;
+  width:120px;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.navbar a {
+  color: #bfaeff;
+  display: inline-block;
+  font-size: 25px;
+  padding: 5px;
+  text-decoration: none;
+  font-style: bold;
+  margin-right: 40px;
+  
+}
+
+
+.navbar a:hover{
+  color: #e0d8fd;
+  transform: translateY(5px);
+  transition: background-color 1s;
+  text-decoration: none;
+}
+
+.enable{
+  color: rgb(255, 255, 255) !important;
+}
+.navbar li { 
+  height:fit-content;
+  width: fit-content;
+  text-align: center;
+  vertical-align: middle;
+}
+.navbar ul {
+  width: fit-content;
+  margin-right: 0 !important;
+  
+}
+
+table{
+  width: 100%;
+}
+
+.columna-izq{
+  width: 20%;
+  vertical-align: top;
+}
+
+.columna-med{
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: top;
+}
+
+.totalNfts {
+  background-color: #2a186b;
+  border: 0;
+  border-style: solid;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 50%;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 0px !important;
+  display: inline-flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.totalNfts::after {
+content: "Edition";
+margin-left: 20px;
+margin-top: 5px;
+color: rgba(255, 255, 255, 0.726);
+}
+
+.impnft{
+  text-align: end;
+  width: 80px;
+  height: 50%;
+  position: absolute;
+  left: auto;
+  right: 15px;
+  top: 25%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.columna-der{
+  width: 20%;
+  vertical-align: top;
+}
+
+.columna-der h2{
+  color: white;
+  margin-top: 20px;
+  text-align: left;
+  margin-right: 15%;
+  margin-left: 7%;
+  float: left;
+}
+
+.columna-izq h2{
+  color: white;
+  margin-left: 25px;
+  margin-top: 20px;
+  float: left;
+}
+
+.columna-izq hr{
+  color: white;
+  border: none;
+  height: 3px !important;
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+  opacity: 100;
+  margin-left: 25px;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.columna-der hr{
+  color: white;
+  border: none;
+  height: 3px !important;
+  color: #ffffff !important;
+  background-color: #ffffff !important;
+  opacity: 100;
+  margin-left: 25px;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  width: 80%;
+}
+
+
+.square{
+  background-color: #5b3bd1;
+  height: fit-content;
+  width: 80%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
+.inputLayer{
+  font-size: 15px;
+  width: 80%;
+  height: fit-content;
+  border:none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #362477;
+  color: #dfdfdf;
+  left: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 8px 0px;
+  font-weight: bold;
+}
+
+.inputRarity{
+  font-size: 15px;
+  width: 80%;
+  height: fit-content;
+  border:none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #362477;
+  color: #dfdfdf;
+  left: 10%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 8px 0px;
+}
+
+.square h5{
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.square h4{
+  text-align: center;
+  margin-top: 10px;
+  color: #ffffffbd;
+  font-size: 15px;
+}
+
+.addImageLayer{
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.addImageLayer::-webkit-file-upload-button {
+  visibility: hidden;
+  position: absolute;
+  font-size: 10px;
+}
+.addImageLayer::before {
+  content: "Add images";
+  font-size: 15px;
+  width: 80%;
+  height: fit-content;
+  border:none;
+  text-align: center;
+  background-color: #111111;
+  color: #dfdfdf;
+  left: 10%;
+  margin-left: 10%;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+}
+
+.addImageLayer:hover::before {
+background-color: #242424;
+cursor: pointer;
+}
+
+.addImageLayer:active::before {
+  background: #111111;
+  width: fit-content;
+}
+
+.addImageRarity{
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.addImageRarity::-webkit-file-upload-button {
+  visibility: hidden;
+  position: absolute;
+  font-size: 10px;
+}
+.addImageRarity::before {
+  content: "Add images";
+  font-size: 15px;
+  width: 80%;
+  height: fit-content;
+  border:none;
+  text-align: center;
+  background-color: #111111;
+  color: #dfdfdf;
+  left: 10%;
+  margin-left: 10%;
+  margin-right: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 20px 20px;
+}
+.addImageRarity:hover::before {
+background-color: #242424;
+cursor: pointer;
+}
+
+.addImageRarity:active::before {
+  background: #111111;
+  width: fit-content;
+}
+
+.probability{
+  padding: 4px 0px !important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  font-size: 15px;
+  width: 50%;
+  height: fit-content;
+  border:none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #362477;
+  color: #dfdfdfb0;
+  left: 10%;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 8px 0px;
+}
+
+.handle-counter 
+{
+  overflow:hidden; 
+  background-color: #ffffff;
+  width: fit-content;
+  border-radius: 10px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.handle-counter .counter-minus,  .handle-counter .counter-plus,  .handle-counter input {
+  float:left;
+  text-align:center;
+  font-weight: bold;
+}
+.handle-counter .counter-minus,  .handle-counter .counter-plus {
+  text-align:center; 
+}
+.handle-counter input {
+  width:60px;
+  padding-top:5px;
+  padding-bottom:7px;
+  border:none;
+  border-left:none;
+  border-right:none;
+}
+.btn {
+  padding:6px 12px !important;
+  border:none !important;
+  color:rgb(0, 0, 0) !important;
+}
+
+.btn:hover, .btn:focus 
+{
+  color:rgb(138, 137, 137)
+}
+
+#canvas{
+  display: inline-flex;
+  background-color: #ffffff;
+  border: 6px solid #5b3bd1;
+}
+
+.boton-actualizar{
+  background-color: #5b3bd1;
+  border: 5px solid;
+  border-color: #ffffff;
+  border-style: solid;
+  border-radius: 40px;
+  color: #ffffff;
+  width: 60%;
+  height: 70px;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.boton-descargar{
+  border: none;
+  background-color: #86f094;
+  border-radius: 40px;
+  color: #111111;
+  width: 60%;
+  height: 70px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.boton-descargar:disabled{
+  background-color: #52965b;
+  cursor: not-allowed;
+}
+
+.collection-name
+{
+  width: 60%;
+  background-color: white;
+  border: none;
+  height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 1300px)
+{
+  .handle-counter .counter-minus,  .handle-counter .counter-plus {text-align:center; }
+  .handle-counter input
+  {
+    width: 50px;
+    
+  }
+
+  .handle-counter
+  {
+    margin-left: 20px;
+
+  }
+}
+
+.rarity-square{
+  background-color: #ffffff;
+  height: 70px;
+  width: 80%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  float: left;
+  
+}
+@media (max-width:1400px)
+{
+  .handle-counter input 
+  {
+    width:40px;
+  }
+}
+@media (max-width:960px)
+{
+  .handle-counter input
+  {
+    width:20px;
+  }
+}
+
+.login-buttons{
+  margin-right: 20px;
+}
+
+.login-buttons button
+{
+  margin-top: 7px;
+  border: none;
+  background-color: #362477;
+  width: 130%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #ffffff;
+  border-radius: 40px;
+}
+
+.login-buttons button:hover
+{
+  background-color: #3e2c7e;
+}
+
+#userName{
+  margin-top: 12px;
+  margin-right: 14px;
+  color: #ffffff;
+}
+
+.usuario{
+  display: flex;
+  border-style: solid;
+  border-color: #bfaeff;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+.circulo{
+  background-color: #362477;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 5px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.cuadrado{
+  text-align: right;
+  background-color: #6d55c0;
+  width: 90%;
+  height: fit-content;
+  padding: 20px;
+  padding-left: 100px;
+  padding-right: 60px;
+  margin-top: 32px;
+  position: absolute;
+  left: 100px;
+  z-index: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.pregunta{
+  text-align: left;
+  background-color: #362477;
+  color: #ffffff;
+  width: 320px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.pregunta h2{
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 10px 25px;
+
+}
+
+.pregunta h5{
+  margin-top: 20px;
+  color:#bfaeff;
+  padding: 0px 25px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.nfts-cargados{
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor-nft{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.fondo-nft{
+  background-color: #261955;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.nombre-nft{
+  color: white;
+  font-size: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.download-nft{
+  background-color: #86f094;
+  color: #111111;
+  text-decoration: none;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5px;
+}
+
+.download-nft:hover{
+  background-color: #6dc279;
+  color: #111111;
+}
+
+.eliminar-nft{
+  background-color: rgb(148, 28, 52);
+  color: white;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 20px;
+  border-style: none;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.eliminar-popup{
+  width: 30%;
+  height: 30%;
+  background-color: #6d55c0;
+  position: absolute;
+  left: 35%;
+  bottom: 40%;
+}
+
+#uploaded{
+  color: #86f094;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  display: none;
+}
+
+#nouploaded{
+  color: #d43722;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  display: none;
+}
