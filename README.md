@@ -12,7 +12,7 @@
 
 <p> Nuestro proyecto consiste de 2 grandes partes: El interfaz de usuario y el algoritmo detras de esta. Ambos van a estar dentro de una página web donde el ususario va a poder ingresar y crear sus NFTs. El algoritmo consiste en mezclar imagenes en diferentes capas para asi poder formar infinitas combinaciones de imagenes aleatortias sin tener que crear una por una a mano. En el interfaz van a haber diferentes opciones de personalización para la creación de las imagenes:</p>
 
-<p><b>Layers:</p>  El usuario va a poder elegir la cantidad de capas para la creación de sus imagenes. Por ejemplo si nuestros NFTs van a ser de gatos, la capa 1 podria ser el cuerpo, la capa 2 los ojos, la 3 los accesorios, etc.</p>
+<p><b>Layers:</b>  El usuario va a poder elegir la cantidad de capas para la creación de sus imagenes. Por ejemplo si nuestros NFTs van a ser de gatos, la capa 1 podria ser el cuerpo, la capa 2 los ojos, la 3 los accesorios, etc.</p>
 <p><b>Collection name and edition: </b>El usuario va a poder elegir tanto el nombre de su colección como a edicion del NFT a crear. </p>
 <p><b>Randomize: </b>  El botón "Randomize" le va a permitir al usuario empezar con el proceso de creación de su colección NFT. Aparecera un pop-up de carga mientras se realice el proceso.</p>
 <p><b>Upload: </b>El botón "Upload" va a cargar la imagen generada en el servidor de Firebase </p>
